@@ -226,8 +226,16 @@ nav ul li a.active::after {
   color: var(--neutral-light-gray);
 }
 
+.hero-c {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+  color: var(--neutral-dark-gray);
+}
+
 .hero-cta {
   margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* ==================== セクションスタイル ==================== */
