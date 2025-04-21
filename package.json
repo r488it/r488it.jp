@@ -1,0 +1,23 @@
+{
+  "name": "r488it-website",
+  "version": "1.0.0",
+  "description": "r488it うさぎエージェント会社ウェブサイト",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "rabbit",
+    "agent",
+    "management",
+    "website"
+  ],
+  "author": "r488it",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

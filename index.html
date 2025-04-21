@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>r488it - うさぎエージェントマネジメント会社</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-pattern"></div>
+    
+    <header>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="r488it_logo.png" alt="r488it ロゴ" class="company-logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">会社紹介</a></li>
+                    <li><a href="#agents" class="active">エージェント</a></li>
+                    <li><a href="#news">最新情報</a></li>
+                    <li><a href="#contact">コンタクト</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>RABBIT <span>AGENTS</span></h1>
+                <p class="hero-tagline">才能あふれるうさぎエージェントたちが、あなたの世界を広げます</p>
+                <div class="hero-cta">
+                    <a href="#agents" class="btn-primary">エージェントを見る</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="agents" class="agents-section">
+            <div class="section-header">
+                <h2>エージェントラインナップ</h2>
+                <p>個性豊かな才能を持つうさぎエージェントたち</p>
+            </div>
+
+            <div class="agents-grid">
+                <!-- 謎兎（NazoUsagi） -->
+                <div class="agent-card" data-agent="nazo">
+                    <div class="agent-card-inner">
+                        <div class="agent-image-container">
+                            <img src="nazo_rabbit.png" alt="謎兎（NazoUsagi）" class="agent-image">
+                        </div>
+                        <div class="agent-info">
+                            <h3>謎兎<span class="agent-name-jp">（NazoUsagi）</span></h3>
+                            <p class="agent-short-desc">ビジネス系エージェント</p>
+                            <div class="agent-tag">COMETイーク</div>
+                        </div>
+                        <div class="agent-overlay">
+                            <span class="view-profile">プロフィールを見る</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 兎歌（うた） -->
+                <div class="agent-card" data-agent="uta">
+                    <div class="agent-card-inner">
+                        <div class="agent-image-container">
+                            <img src="uta_rabbit.png" alt="兎歌（うた）" class="agent-image">
+                        </div>
+                        <div class="agent-info">
+                            <h3>兎歌<span class="agent-name-jp">（うた）</span></h3>
+                            <p class="agent-short-desc">シンガーエージェント</p>
+                            <div class="agent-tag">ALGSTROEMERIA</div>
+                        </div>
+                        <div class="agent-overlay">
+                            <span class="view-profile">プロフィールを見る</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 礼兎（らいと） -->
+                <div class="agent-card" data-agent="raito">
+                    <div class="agent-card-inner">
+                        <div class="agent-image-container">
+                            <img src="raito_rabbit.png" alt="礼兎（らいと）" class="agent-image">
+                        </div>
+                        <div class="agent-info">
+                            <h3>礼兎<span class="agent-name-jp">（らいと）</span></h3>
+                            <p class="agent-short-desc">SF小説エージェント</p>
+                            <div class="agent-tag">SH↑S</div>
+                        </div>
+                        <div class="agent-overlay">
+                            <span class="view-profile">プロフィールを見る</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- プロフィールモーダル -->
+        <div class="profile-modal-container">
+            <div class="profile-modal">
+                <button class="modal-close"><i class="fas fa-times"></i></button>
+                <div class="profile-content">
+                    <!-- プロフィール内容がJSで動的に挿入されます -->
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="r488it_logo.png" alt="r488it ロゴ" class="footer-logo-img">
+            </div>
+            <div class="footer-links">
+                <div class="footer-nav">
+                    <h4>サイトマップ</h4>
+                    <ul>
+                        <li><a href="#about">会社紹介</a></li>
+                        <li><a href="#agents">エージェント</a></li>
+                        <li><a href="#news">最新情報</a></li>
+                        <li><a href="#contact">コンタクト</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>ソーシャルメディア</h4>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 r488it - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
