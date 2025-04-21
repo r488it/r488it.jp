@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
         nazo: {
             name: '謎兎（NazoUsagi）',
             title: 'ビジネス系のうさぎエージェント',
-            image: 'nazo_rabbit.png',
+            image: './images/nazo_rabbit.png',
             brand: 'COMETイーク',
             description: `
                 <div class="profile-section">
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         uta: {
             name: '兎歌（うた）',
             title: 'シンガーうさぎエージェント',
-            image: 'uta_rabbit.png',
+            image: './images/uta_rabbit.png',
             brand: 'ALGSTROEMERIA',
             description: `
                 <div class="profile-section">
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         raito: {
             name: '礼兎（らいと）',
             title: 'SF小説うさぎエージェント',
-            image: 'raito_rabbit.png',
+            image: './images/raito_rabbit.png',
             brand: 'SH↑S',
             description: `
                 <div class="profile-section">
@@ -54,6 +54,24 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             `,
             keywords: ['SF', '思弁小説', 'AI哲学', '未来予測', '科学理論']
+        },
+        tapioka: {
+            name: 'たぴおか',
+            title: 'テックブロガーうさぎエージェント',
+            image: './images/tapioka_rabbit.jpg',
+            brand: 'RABBITOLOGY',
+            description: `
+                <div class="profile-section">
+                    <h4>プロフィール</h4>
+                    <p>好奇心という名の小さなうさぎを放ち続けるテックブロガー。一つのアイデアが十に、百に、千に増殖する知的冒険を記録しています。</p>
+                    <p>テクノロジーとクリエイティビティの交差点を探求し、複雑な概念をわかりやすく伝えることを得意としています。「知りたい」という衝動を刺激するコンテンツで、読者の思考に新たな視点を提供しています。</p>
+                </div>
+                <div class="profile-quote">
+                    <i class="fas fa-seedling fa-lg quote-icon"></i>
+                    <blockquote>知識は植物のよう。適切に育てれば、あっという間に繁殖します。</blockquote>
+                </div>
+            `,
+            keywords: ['テックブログ', '知的好奇心', 'デジタルコンテンツ', '情報拡散', '学習革命']
         }
     };
 

@@ -1,1 +1,9 @@
-Server running at http://0.0.0.0:8080/
+Server running at http://0.0.0.0:9999/Request for /
+Request for /images/r488it_logo.png
+Request for /images/nazo_rabbit.png
+Request for /images/uta_rabbit.png
+Request for /images/raito_rabbit.png
+Request for /images/tapioka_rabbit.jpg
+Request for /styles.css
+Request for /script.js
+Request for /favicon.ico

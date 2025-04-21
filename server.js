@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 8080;
+const PORT = 9999;
 
 const MIME_TYPES = {
   '.html': 'text/html',
@@ -17,7 +17,9 @@ const MIME_TYPES = {
 };
 
 const server = http.createServer((req, res) => {
-  console.log(`Request for ${req.url}`);
+  const logMessage = `Request for ${req.url}`;
+  console.log(logMessage);
+  fs.appendFileSync(path.join(__dirname, 'server.log'), logMessage + '\n', 'utf8');
   
   // リクエストURLからパスを取得（デフォルトはindex.html）
   let filePath = path.join(__dirname, req.url === '/' ? 'index.html' : req.url);
@@ -50,5 +52,7 @@ const server = http.createServer((req, res) => {
 
 // サーバーを起動
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`Server running at http://0.0.0.0:${PORT}/`);
+  const message = `Server running at http://0.0.0.0:${PORT}/`;
+  console.log(message);
+  fs.writeFileSync(path.join(__dirname, 'server.log'), message, 'utf8');
 });

@@ -1,7 +1,7 @@
 {
   "name": "r488it-website",
   "version": "1.0.0",
-  "description": "r488it うさぎエージェント会社ウェブサイト",
+  "description": "r488it うさぎエージェント会社ウェブサイト（たぴおか追加版）",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -11,7 +11,9 @@
     "rabbit",
     "agent",
     "management",
-    "website"
+    "website",
+    "tapioka",
+    "blog"
   ],
   "author": "r488it",
   "license": "MIT",
