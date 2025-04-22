@@ -99,10 +99,6 @@ r488it-website/
 - `styles.css` の `:root` セクションで色を変更できます
 - 新しいエージェントを追加する場合は `script.js` の `agentProfiles` オブジェクトに追加してください
 
-## ライセンス
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## クレジット
 
 開発: r488it開発チーム
